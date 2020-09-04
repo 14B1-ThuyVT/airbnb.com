@@ -1,0 +1,46 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuL {
+    display: flex;
+    align-items: center;
+}
+.menuL img{
+    width: 80px;
+    height: 80px;
+}
+.menuL input{
+    height: 50px;
+    width: 500px;
+    position: relative;
+    padding: 0px 50px;
+    font-size: 15px;
+    border: 1px solid #DDD ;
+    border-radius: 5px;
+    box-shadow: 2px 2px #EEE;
+}
+.menuL i{
+    font-size: 18px;
+    color: #999;
+    position: absolute;
+    left: 105px;
+}
+
+.menuR {
+    color: #666;
+    display: flex;
+}
+.menuR .menuR-select{
+    height: 76px;
+    font-weight: bold;
+    border: 2px solid white;
+    line-height: 76px;
+    text-align: center;
+    padding: 0px 10px;
+    
+}
+.menuR .menuR-select:hover {
+    border-bottom-color: black;
+}

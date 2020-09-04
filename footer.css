@@ -1,0 +1,45 @@
+.footer{
+    background-color: #eee;
+    border: 1px solid #bbb;
+    padding: 40px 120px;
+
+}
+.footer table{
+    column-width: 300px;
+}
+.footer th{
+    text-align: start;
+    font-size: 15px;
+    color: #333;
+    padding: 10px 0;
+}
+.footer td{
+    padding: 10px 0;
+    width: 340px;
+}
+.footer a{
+    color: #666;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: #666 underline;
+}
+.footer hr{
+    border: 1px solid #DDD;
+}
+.footer .footer-note{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.footer .footer-note span{
+    color: #666;
+    margin: 0px 3px
+}
+.footer .footer-note .fa-copyright{
+    color: #666;
+}
+.footer .footer-noteR i{
+    padding: 0px 10px;
+    color: #666;
+}

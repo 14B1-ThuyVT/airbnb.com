@@ -1,0 +1,9 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+.container {
+    height: 1040px;
+    display: grid;
+    grid-template-rows: 80px 320px 160px 480px;
+}
